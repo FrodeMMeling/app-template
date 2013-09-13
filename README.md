@@ -10,6 +10,8 @@ This will create a new project, with dependencies, based on this repository. Be 
 the webserver at the `app/webroot` folder (a [production install][1]), ensure that [url rewriting][2]
 is configured correctly.
 
+	composer update ensures all plugins are installed and up to date.
+
 ## Note about dependencies
 
 FriendsOfCake encourages the use of composer and it's best not to mix composer with git submodules for
